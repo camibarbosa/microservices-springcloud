@@ -16,7 +16,7 @@ eureka:
       defaultZone: http://cursoms-eureka-user:acrke-eeemse-urekau@localhost:8761/eureka
   instance:
     instance-id: ${spring.application.name}:${spring.application.instance_id:${random.value}}
-    # registra com nomes diferentes
+
 mq:
   queues:
     emissao-cartoes: emissao-cartoes

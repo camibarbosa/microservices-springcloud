@@ -13,7 +13,6 @@ public class MQConfig {
 
     @Bean
     public Queue queueEmissaoCartoes(){
-        return new Queue(emissaoCartoesFila, true);
+        return new Queue( emissaoCartoesFila , true);
     }
-
 }

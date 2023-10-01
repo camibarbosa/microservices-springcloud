@@ -8,7 +8,7 @@ server:
 eureka:
   client:
     service-url:
-      defaultZone: http://cursoms-eureka-user:acrke-eeemse-urekau@localhost:8761/eureka
+      defaultZone: http://cursoms-eureka-user:acrke-eeemse-urekau@${EUREKA_SERVER}:8761/eureka
   instance:
     instance-id: ${spring.application.name}:${spring.application.instance_id:${random.value}}
 

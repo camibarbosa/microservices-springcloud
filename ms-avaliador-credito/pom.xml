@@ -14,7 +14,7 @@
     <name>ms-avaliador-credito</name>
     <description>ms-avaliador-credito</description>
     <properties>
-        <java.version>11</java.version>
+        <java.version>17</java.version>
         <spring-cloud.version>2021.0.1</spring-cloud.version>
     </properties>
     <dependencies>
